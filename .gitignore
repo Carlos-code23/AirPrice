@@ -4,6 +4,7 @@ __pycache__/
 *.pyo
 
 /doc
+data/listings.csv
 # Jupyter
 .ipynb_checkpoints/
 
