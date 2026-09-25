@@ -1,0 +1,6 @@
+Paso,Registros_antes,Registros_despues,Registros_eliminados
+Eliminar registros sin precio válido,92638,62240,30398
+Eliminar IDs duplicados,62240,62240,0
+Eliminar extremos de precio P0.5-P99.5,62240,61617,623
+Eliminar capacidad inválida,61617,61617,0
+Eliminar coordenadas inválidas,61617,61617,0

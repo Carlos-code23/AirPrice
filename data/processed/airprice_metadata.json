@@ -1,0 +1,41 @@
+{
+    "proyecto": "AirPrice",
+    "fuente": "Inside Airbnb - London",
+    "registros_originales": 92638,
+    "registros_finales": 61617,
+    "columnas_finales": 32,
+    "precio_minimo": 29.87,
+    "precio_maximo": 2007.0,
+    "tratamiento_outliers": {
+        "metodo": "Recorte por percentiles",
+        "percentil_inferior": 0.5,
+        "percentil_superior": 99.5,
+        "limite_inferior": 29.87,
+        "limite_superior": 2008.1833500000005
+    },
+    "limites_clases": {
+        "ECONOMICO": {
+            "min": 29.87,
+            "max": 100.0
+        },
+        "MEDIO": {
+            "min": 100.0,
+            "max": 180.0
+        },
+        "ALTO": {
+            "min": 180.0,
+            "max": 299.5
+        },
+        "PREMIUM": {
+            "min": 299.5,
+            "max": 2007.0
+        }
+    },
+    "clases": [
+        "ECONOMICO",
+        "MEDIO",
+        "ALTO",
+        "PREMIUM"
+    ],
+    "valores_faltantes_finales": 0
+}
