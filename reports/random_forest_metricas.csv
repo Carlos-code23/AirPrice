@@ -1,0 +1,2 @@
+modelo,n_estimators,max_depth,max_features,accuracy,balanced_accuracy,f1_macro,f1_weighted
+random_forest,100,,sqrt,0.6813805041653143,0.680991639575242,0.6779169740839677,0.6782199620922414
