@@ -1,0 +1,2 @@
+modelo,learning_rate,accuracy,balanced_accuracy,f1_macro,f1_weighted
+xgboost_base,0.1,0.6747809152872444,0.6743730889363838,0.6720168016987591,0.6723506230983225
