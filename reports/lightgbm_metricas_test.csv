@@ -1,0 +1,2 @@
+modelo,num_leaves,accuracy,balanced_accuracy,f1_macro,f1_weighted
+lightgbm,63,0.6883046629882072,0.6879585071378831,0.6865258743614557,0.6868082401962259
