@@ -67,3 +67,16 @@ AirPrice/
 ├── src/
 ├── .gitignore
 └── README.md
+```
+
+## API
+
+La API de inferencia está en `app/`:
+
+```bash
+pip install -r app/requirements-api.txt
+python -m app.scripts.export_bundle
+uvicorn app.main:app --reload --port 8000
+```
+
+Documentación: `http://localhost:8000/docs`, `app/docs/API.md` y `app/docs/REACT_INTEGRATION.md`.
