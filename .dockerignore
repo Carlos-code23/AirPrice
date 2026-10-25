@@ -1,0 +1,14 @@
+.git
+.venv
+__pycache__
+*.pyc
+*.pyo
+.ipynb_checkpoints
+data
+notebooks
+reports
+doc
+models/*
+!models/airprice_inference_bundle.joblib
+*.log
+.env

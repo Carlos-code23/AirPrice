@@ -1,0 +1,103 @@
+{
+  "name": "lightgbm_ext",
+  "version": "1.0.0",
+  "trained_at": "2026-10-24",
+  "target": "price_range",
+  "classes": [
+    "ECONOMICO",
+    "MEDIO",
+    "ALTO",
+    "PREMIUM"
+  ],
+  "metrics": {
+    "accuracy": 0.7297414259439576,
+    "balanced_accuracy": 0.7294381549725375,
+    "f1_macro": 0.7288117290128767,
+    "f1_weighted": 0.7290748197683603,
+    "accuracy_adjacent": 0.9783620036784594,
+    "mae_ordinal": 0.2955750297522449,
+    "qwk": 0.8593328822032051
+  },
+  "key_fields_benchmark": {
+    "key_fields": {
+      "accuracy": 0.654,
+      "balanced_accuracy": 0.6463941631749456,
+      "f1_macro": 0.6474166768302994,
+      "f1_weighted": 0.6554857081684649,
+      "accuracy_adjacent": 0.963,
+      "mae_ordinal": 0.394,
+      "qwk": 0.8020310378213515,
+      "n": 1000,
+      "delta_accuracy_vs_full": -0.05999999999999994
+    },
+    "advanced_fields": {
+      "accuracy": 0.705,
+      "balanced_accuracy": 0.6964343440994667,
+      "f1_macro": 0.6953917057653238,
+      "f1_weighted": 0.7033220687915465,
+      "accuracy_adjacent": 0.974,
+      "mae_ordinal": 0.331,
+      "qwk": 0.8392981698986857,
+      "n": 1000,
+      "delta_accuracy_vs_full": -0.009000000000000008
+    }
+  },
+  "key_fields": [
+    "room_type",
+    "property_type",
+    "neighbourhood_cleansed",
+    "latitude",
+    "longitude",
+    "accommodates",
+    "bedrooms",
+    "beds",
+    "bathrooms_num",
+    "bathrooms_text",
+    "minimum_nights",
+    "maximum_nights",
+    "host_listings_count",
+    "calculated_host_listings_count",
+    "amenities",
+    "availability_365",
+    "availability_30",
+    "availability_60",
+    "availability_90",
+    "number_of_reviews",
+    "number_of_reviews_ltm",
+    "number_of_reviews_l30d",
+    "number_of_reviews_ly",
+    "reviews_per_month",
+    "review_scores_rating",
+    "host_is_superhost",
+    "host_identity_verified"
+  ],
+  "intended_use": [
+    "Segmentar alojamientos en rangos de precio.",
+    "Priorizar anuncios para análisis comercial.",
+    "Demostración de inferencia con LightGBM."
+  ],
+  "not_intended_for": [
+    "Fijar el precio exacto de un alojamiento.",
+    "Sustituir una tasación profesional.",
+    "Usar el resultado como verdad absoluta sin revisión humana."
+  ],
+  "limitations": [
+    "Accuracy exacta de 4 clases ~0.73; accuracy adyacente ~0.98.",
+    "El target se construyó por cuantiles de precio.",
+    "Algunos campos de la API se imputan con medianas/moda.",
+    "El dataset no incluye imágenes ni texto de descripción."
+  ],
+  "leakage_controls": [
+    "No se usan price, price_clean, price_quote_* ni estimated_revenue_l365d.",
+    "El target price_range no entra como feature.",
+    "Los clusters y densidades se ajustan con train."
+  ],
+  "versions": {
+    "python": "3.12.2",
+    "pandas": "3.0.6",
+    "numpy": "2.5.3",
+    "scikit_learn": "1.9.1",
+    "lightgbm": "4.7.0",
+    "joblib": "1.6.0"
+  }
+}
