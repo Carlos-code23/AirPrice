@@ -294,6 +294,9 @@ def construir_preprocesador_features(
         ``ColumnTransformer`` listo para insertarse en un ``Pipeline``.
     """
     target_encoding = list(target_encoding or [])
+    # Puede haber columnas 100 % vacías que ``preparar_dataset_features``
+    # elimina (p. ej. ``neighbourhood`` en este scrape). Se ignoran.
+    target_encoding = [c for c in target_encoding if c in X.columns]
     categoricas = [
         c for c in columnas_categoricas_features(X) if c not in target_encoding
     ]
