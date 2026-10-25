@@ -18,30 +18,7 @@
     "mae_ordinal": 0.2955750297522449,
     "qwk": 0.8593328822032051
   },
-  "key_fields_benchmark": {
-    "key_fields": {
-      "accuracy": 0.654,
-      "balanced_accuracy": 0.6463941631749456,
-      "f1_macro": 0.6474166768302994,
-      "f1_weighted": 0.6554857081684649,
-      "accuracy_adjacent": 0.963,
-      "mae_ordinal": 0.394,
-      "qwk": 0.8020310378213515,
-      "n": 1000,
-      "delta_accuracy_vs_full": -0.05999999999999994
-    },
-    "advanced_fields": {
-      "accuracy": 0.705,
-      "balanced_accuracy": 0.6964343440994667,
-      "f1_macro": 0.6953917057653238,
-      "f1_weighted": 0.7033220687915465,
-      "accuracy_adjacent": 0.974,
-      "mae_ordinal": 0.331,
-      "qwk": 0.8392981698986857,
-      "n": 1000,
-      "delta_accuracy_vs_full": -0.009000000000000008
-    }
-  },
+  "key_fields_benchmark": null,
   "key_fields": [
     "room_type",
     "property_type",
