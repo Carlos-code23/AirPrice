@@ -1,0 +1,2 @@
+modelo,escenario,pesos,accuracy,balanced_accuracy,f1_macro,f1_weighted,accuracy_adjacent,mae_ordinal,qwk
+ensemble_ext,extendido_ensemble,"{""random_forest"": 0.1, ""xgboost"": 0.4, ""lightgbm"": 0.5}",0.7302823758519961,0.7299837454706107,0.7294663640488365,0.7297215372063288,0.9787947636048902,0.2946013199177756,0.8598945850696904

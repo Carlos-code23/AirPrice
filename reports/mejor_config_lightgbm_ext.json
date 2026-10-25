@@ -1,0 +1,25 @@
+{
+  "modelo": "lightgbm_ext_tuned",
+  "variante": "target_encoding",
+  "params": {
+    "subsample": 0.9,
+    "reg_lambda": 5.0,
+    "reg_alpha": 0.0,
+    "num_leaves": 127,
+    "n_estimators": 500,
+    "min_child_samples": 10,
+    "learning_rate": 0.08,
+    "colsample_bytree": 0.6
+  },
+  "extra": {
+    "target_encoding": [
+      "neighbourhood_cleansed",
+      "property_type"
+    ]
+  },
+  "f1_macro_cv": 0.7058951104351888,
+  "f1_macro_val": 0.7343730118997693,
+  "accuracy_test": 0.7283349561830574,
+  "f1_macro_test": 0.7277817425887263,
+  "accuracy_adjacent_test": 0.9795520934761441
+}

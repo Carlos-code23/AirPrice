@@ -1,0 +1,2 @@
+modelo,escenario,n_estimators,max_depth,max_features,min_samples_leaf,accuracy,balanced_accuracy,f1_macro,f1_weighted,accuracy_adjacent,mae_ordinal,qwk
+random_forest_ext,extendido,300,,sqrt,2,0.7116736990154712,0.711359104809254,0.7101390363174263,0.7103910255658701,0.9713296548739587,0.3231634750622092,0.8393129027597827

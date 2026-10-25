@@ -1,0 +1,83 @@
+variable,importancia
+num__availability_365,2428.0
+num__amenities_count,1902.0
+num__reviews_per_month,1868.0
+num__latitude,1862.0
+num__distancia_hyde_park_km,1676.0
+num__distancia_centro_km,1444.0
+num__distancia_kings_cross_km,1353.0
+num__number_of_reviews,1330.0
+num__review_scores_rating,1328.0
+num__distancia_canary_wharf_km,1283.0
+num__minimum_nights,1193.0
+num__distancia_heathrow_km,1114.0
+num__accommodates,949.0
+num__longitude,913.0
+num__bedrooms,555.0
+num__bathrooms_num,497.0
+num__beds,320.0
+cat__room_type_Entire home/apt,199.0
+num__bedrooms_missing,196.0
+num__beds_missing,172.0
+cat__host_is_superhost_f,153.0
+cat__property_type_Entire rental unit,142.0
+cat__property_type_Private room in rental unit,129.0
+cat__property_type_Private room in home,127.0
+cat__property_type_Room in hotel,97.0
+cat__room_type_Private room,87.0
+cat__property_type_Entire home,86.0
+cat__property_type_Entire condo,84.0
+cat__property_type_OTHER,84.0
+cat__neighbourhood_cleansed_Richmond upon Thames,82.0
+cat__property_type_Entire serviced apartment,75.0
+cat__neighbourhood_cleansed_Kensington and Chelsea,58.0
+cat__neighbourhood_cleansed_Brent,57.0
+cat__neighbourhood_cleansed_Ealing,56.0
+cat__neighbourhood_cleansed_Lewisham,55.0
+cat__property_type_Private room in condo,53.0
+cat__neighbourhood_cleansed_Wandsworth,43.0
+cat__neighbourhood_cleansed_Lambeth,42.0
+cat__room_type_Shared room,41.0
+cat__neighbourhood_cleansed_Waltham Forest,36.0
+cat__property_type_Private room in bed and breakfast,34.0
+cat__neighbourhood_cleansed_Croydon,31.0
+cat__neighbourhood_cleansed_Camden,31.0
+cat__neighbourhood_cleansed_Newham,30.0
+cat__host_is_superhost_t,30.0
+cat__neighbourhood_cleansed_Hammersmith and Fulham,28.0
+cat__neighbourhood_cleansed_Westminster,27.0
+cat__neighbourhood_cleansed_Southwark,27.0
+cat__neighbourhood_cleansed_City of London,25.0
+cat__neighbourhood_cleansed_Merton,24.0
+cat__neighbourhood_cleansed_Redbridge,23.0
+cat__neighbourhood_cleansed_Haringey,23.0
+cat__neighbourhood_cleansed_Bromley,23.0
+cat__neighbourhood_cleansed_Islington,23.0
+cat__property_type_Entire townhouse,21.0
+cat__neighbourhood_cleansed_Tower Hamlets,20.0
+cat__property_type_Private room in townhouse,19.0
+cat__neighbourhood_cleansed_Barnet,18.0
+cat__neighbourhood_cleansed_Hackney,17.0
+cat__neighbourhood_cleansed_Hounslow,17.0
+cat__property_type_Entire guesthouse,16.0
+cat__neighbourhood_cleansed_Sutton,14.0
+num__bathrooms_num_missing,14.0
+cat__host_identity_verified_t,11.0
+cat__neighbourhood_cleansed_Greenwich,11.0
+cat__property_type_Private room in guesthouse,10.0
+cat__neighbourhood_cleansed_Barking and Dagenham,10.0
+cat__host_identity_verified_f,8.0
+cat__neighbourhood_cleansed_Enfield,8.0
+cat__neighbourhood_cleansed_Hillingdon,6.0
+cat__neighbourhood_cleansed_Kingston upon Thames,6.0
+cat__neighbourhood_cleansed_Harrow,5.0
+num__has_reviews,5.0
+cat__neighbourhood_cleansed_Bexley,4.0
+cat__cluster_zona_0,4.0
+cat__property_type_Entire loft,3.0
+cat__neighbourhood_cleansed_Havering,3.0
+cat__cluster_zona_1,2.0
+cat__room_type_Hotel room,0.0
+cat__host_identity_verified_UNKNOWN,0.0
+cat__host_is_superhost_UNKNOWN,0.0
+num__minimum_nights_missing,0.0

@@ -1,0 +1,11 @@
+{
+  "pesos": {
+    "random_forest": 0.1,
+    "xgboost": 0.4,
+    "lightgbm": 0.5
+  },
+  "f1_macro_val": 0.7333914608446898,
+  "accuracy_test": 0.7302823758519961,
+  "f1_macro_test": 0.7294663640488365,
+  "accuracy_adjacent_test": 0.9787947636048902
+}

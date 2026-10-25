@@ -1,0 +1,2 @@
+modelo,escenario,n_estimators,learning_rate,num_leaves,accuracy,balanced_accuracy,f1_macro,f1_weighted,accuracy_adjacent,mae_ordinal,qwk
+lightgbm_features,geo,100,0.1,63,0.6905766526019691,0.690249308547209,0.6892353462746478,0.6895100566031785,0.9704641350210971,0.3450178513469653,0.8300260521634761
