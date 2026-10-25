@@ -1,0 +1,247 @@
+variable,importancia
+num__distancia_vecino_km,2692.0
+num__distancia_landmark_km,2559.0
+num__availability_365,2503.0
+num__latitude,2456.0
+num__distancia_hyde_park_km,2446.0
+num__amenities_count,2392.0
+num__availability_eoy,2371.0
+num__distancia_metro_km,2231.0
+num__distancia_min_poi_km,2217.0
+num__vecinos_1km,2183.0
+num__distancia_kings_cross_km,2137.0
+num__distancia_aeropuerto_km,2117.0
+num__distancia_centro_km,2075.0
+num__dias_desde_ultimo_review,2035.0
+num__minimum_nights_avg_ntm,1988.0
+num__dias_desde_primer_review,1902.0
+num__reviews_per_month,1864.0
+num__distancia_canary_wharf_km,1798.0
+num__distancia_heathrow_km,1651.0
+num__availability_30,1611.0
+num__entire_home_ratio,1565.0
+num__availability_90,1510.0
+num__review_scores_cleanliness,1503.0
+num__min_max_nights_ratio,1493.0
+num__longitude,1432.0
+num__review_scores_location,1418.0
+num__accommodates,1392.0
+num__number_of_reviews,1369.0
+num__availability_mean,1333.0
+num__host_listings_count,1265.0
+num__availability_60,1261.0
+num__review_scores_std,1243.0
+num__review_scores_rating,1176.0
+num__maximum_minimum_nights,1172.0
+num__reviews_ly_ratio,1164.0
+num__private_room_ratio,1148.0
+num__reviews_ltm_ratio,1139.0
+num__minimum_nights,1126.0
+num__review_scores_value,1003.0
+num__accommodates_per_bedroom,986.0
+num__beds_per_guest,984.0
+num__bedrooms,979.0
+num__review_scores_mean,965.0
+num__review_scores_accuracy,876.0
+num__calculated_host_listings_count,870.0
+num__nights_range,860.0
+num__number_of_reviews_ltm,852.0
+num__review_scores_checkin,832.0
+num__densidad_vecindario,791.0
+num__review_scores_communication,783.0
+num__pois_2km,770.0
+num__bathrooms_num,770.0
+num__review_scores_min,763.0
+num__calculated_host_listings_count_entire_homes,737.0
+num__reviews_l30d_ratio,708.0
+num__minimum_maximum_nights,629.0
+num__number_of_reviews_ly,612.0
+num__bathrooms_per_bedroom,596.0
+num__calculated_host_listings_count_private_rooms,590.0
+num__review_scores_max,581.0
+num__amenity_dishwasher,494.0
+num__ratio_densidad_1km,473.0
+num__beds_per_bedroom,446.0
+num__beds,421.0
+num__maximum_nights,384.0
+num__availability_ratio_30,351.0
+num__amenity_tv,333.0
+num__bedrooms_missing,306.0
+num__amenity_air_conditioning,302.0
+num__maximum_nights_avg_ntm,299.0
+num__amenity_coffee_maker,285.0
+num__bathroom_shared,278.0
+num__availability_ratio_90,262.0
+num__amenity_workspace,258.0
+num__amenity_crib,246.0
+num__amenity_self_checkin,234.0
+num__availability_ratio_60,233.0
+cat__host_is_superhost_f,220.0
+num__number_of_reviews_l30d,217.0
+num__amenity_washer,203.0
+num__amenity_elevator,201.0
+num__amenity_balcony,201.0
+num__amenity_pets,196.0
+num__minimum_minimum_nights,190.0
+cat__property_type_Private room in rental unit,189.0
+cat__property_type_Entire rental unit,179.0
+num__amenity_bathtub,177.0
+cat__room_type_Entire home/apt,174.0
+num__amenity_microwave,169.0
+num__amenity_private_entrance,169.0
+cat__property_type_Entire home,169.0
+num__amenity_extra_pillows,162.0
+num__beds_missing,159.0
+num__amenity_iron,157.0
+num__amenity_long_term,152.0
+cat__property_type_Private room in home,147.0
+num__amenity_essentials,146.0
+num__amenity_oven,144.0
+num__amenity_dryer,141.0
+num__amenity_hair_dryer,139.0
+num__amenity_fireplace,139.0
+num__amenity_shampoo,138.0
+num__amenity_parking,134.0
+num__bathroom_private,130.0
+num__amenity_free_parking,127.0
+cat__property_type_Room in hotel,120.0
+cat__property_type_Entire condo,118.0
+num__amenity_stove,117.0
+num__amenity_bed_linens,115.0
+num__amenity_hangers,114.0
+cat__cluster_zona_k10_1,112.0
+cat__room_type_Private room,102.0
+num__amenity_kitchen,96.0
+num__amenity_view,96.0
+cat__neighbourhood_cleansed_Richmond upon Thames,96.0
+num__amenity_refrigerator,95.0
+cat__host_is_superhost_t,93.0
+num__amenity_heating,90.0
+num__amenity_smart_lock,90.0
+cat__cluster_zona_k10_7,89.0
+num__amenity_smoking,89.0
+num__amenity_breakfast,88.0
+num__maximum_maximum_nights,86.0
+num__amenity_gym,85.0
+cat__cluster_zona_k8_5,85.0
+num__amenity_wifi,81.0
+cat__neighbourhood_cleansed_Ealing,71.0
+cat__cluster_zona_k8_6,69.0
+cat__property_type_OTHER,69.0
+cat__neighbourhood_cleansed_Brent,65.0
+num__amenity_pool,62.0
+cat__neighbourhood_cleansed_Waltham Forest,61.0
+cat__neighbourhood_cleansed_Lewisham,60.0
+cat__cluster_zona_k10_2,55.0
+cat__cluster_zona_k8_4,55.0
+cat__neighbourhood_cleansed_Wandsworth,53.0
+cat__property_type_Private room in condo,53.0
+cat__property_type_Entire serviced apartment,51.0
+cat__cluster_zona_k5_0,51.0
+cat__neighbourhood_cleansed_Merton,50.0
+cat__cluster_zona_k5_2,48.0
+cat__neighbourhood_cleansed_Lambeth,47.0
+num__amenity_patio,46.0
+num__amenity_garden,46.0
+num__amenity_hot_tub,45.0
+num__amenity_sauna,43.0
+cat__cluster_zona_k5_3,43.0
+cat__neighbourhood_cleansed_Southwark,42.0
+cat__cluster_zona_k8_2,42.0
+cat__property_type_Private room in bed and breakfast,41.0
+cat__neighbourhood_cleansed_Kensington and Chelsea,41.0
+cat__neighbourhood_cleansed_Haringey,40.0
+cat__neighbourhood_cleansed_Hackney,40.0
+cat__cluster_zona_k10_6,39.0
+cat__neighbourhood_cleansed_Hammersmith and Fulham,39.0
+cat__property_type_Entire townhouse,38.0
+cat__neighbourhood_cleansed_Redbridge,38.0
+cat__room_type_Shared room,38.0
+num__amenity_waterfront,38.0
+num__bathroom_half,38.0
+num__calculated_host_listings_count_shared_rooms,37.0
+cat__neighbourhood_cleansed_Camden,35.0
+cat__cluster_zona_k10_3,35.0
+cat__cluster_zona_k10_8,34.0
+num__shared_room_ratio,33.0
+cat__neighbourhood_cleansed_Islington,31.0
+cat__cluster_zona_k8_0,30.0
+cat__neighbourhood_cleansed_Bromley,30.0
+cat__cluster_zona_k8_1,29.0
+cat__neighbourhood_cleansed_Westminster,26.0
+num__bathrooms_num_missing,24.0
+cat__property_type_Entire guesthouse,24.0
+cat__cluster_zona_k10_4,22.0
+cat__neighbourhood_cleansed_Bexley,20.0
+cat__neighbourhood_cleansed_Croydon,20.0
+cat__cluster_zona_k10_9,19.0
+cat__host_identity_verified_f,18.0
+cat__neighbourhood_cleansed_Hounslow,17.0
+cat__neighbourhood_cleansed_Tower Hamlets,17.0
+cat__neighbourhood_cleansed_Barking and Dagenham,16.0
+cat__property_type_Private room in townhouse,16.0
+cat__neighbourhood_cleansed_Newham,15.0
+cat__neighbourhood_cleansed_Sutton,14.0
+cat__neighbourhood_cleansed_Greenwich,14.0
+cat__neighbourhood_cleansed_Barnet,13.0
+cat__cluster_zona_k10_0,12.0
+cat__host_identity_verified_t,12.0
+cat__cluster_zona_k5_4,11.0
+cat__property_type_Entire loft,11.0
+cat__cluster_zona_0,11.0
+cat__neighbourhood_cleansed_Enfield,10.0
+cat__cluster_zona_k5_1,9.0
+cat__neighbourhood_cleansed_Harrow,9.0
+cat__neighbourhood_cleansed_Hillingdon,7.0
+num__has_availability,6.0
+num__has_reviews,6.0
+cat__neighbourhood_cleansed_Kingston upon Thames,5.0
+cat__property_type_Private room in guesthouse,4.0
+cat__neighbourhood_cleansed_Havering,4.0
+cat__cluster_zona_k8_3,4.0
+cat__cluster_zona_k10_5,4.0
+cat__cluster_zona_k8_7,4.0
+cat__neighbourhood_cleansed_City of London,3.0
+num__review_scores_count,3.0
+num__amenity_doorman,3.0
+num__amenities_disponibles,3.0
+num__reviews_per_month_missing,2.0
+cat__cluster_zona_1,2.0
+cat__room_type_Hotel room,1.0
+cat__host_is_superhost_UNKNOWN,1.0
+num__densidad_cluster,1.0
+num__review_scores_rating_missing,1.0
+cat__host_identity_verified_UNKNOWN,0.0
+cat__instant_bookable_UNKNOWN,0.0
+num__host_response_rate_num_missing,0.0
+num__minimum_nights_missing,0.0
+num__host_acceptance_rate_num_missing,0.0
+num__host_response_rate_num,0.0
+num__host_acceptance_rate_num,0.0
+num__host_verifications_count,0.0
+num__amenity_concierge,0.0
+num__amenity_rooftop,0.0
+num__amenity_events,0.0
+num__amenity_shared_pool,0.0
+num__amenity_private_pool,0.0
+num__missingindicator_host_listings_count,0.0
+num__missingindicator_maximum_nights,0.0
+num__missingindicator_minimum_minimum_nights,0.0
+num__missingindicator_maximum_minimum_nights,0.0
+num__missingindicator_minimum_maximum_nights,0.0
+num__missingindicator_maximum_maximum_nights,0.0
+num__missingindicator_has_availability,0.0
+num__missingindicator_review_scores_accuracy,0.0
+num__missingindicator_review_scores_cleanliness,0.0
+num__missingindicator_review_scores_checkin,0.0
+num__missingindicator_review_scores_communication,0.0
+num__missingindicator_review_scores_location,0.0
+num__missingindicator_review_scores_value,0.0
+num__missingindicator_dias_desde_primer_review,0.0
+num__missingindicator_dias_desde_ultimo_review,0.0
+num__missingindicator_review_scores_mean,0.0
+num__missingindicator_review_scores_std,0.0
+num__missingindicator_review_scores_min,0.0
+num__missingindicator_review_scores_max,0.0
+num__missingindicator_nights_range,0.0
+num__missingindicator_min_max_nights_ratio,0.0

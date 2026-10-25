@@ -1,0 +1,2 @@
+modelo,escenario,n_estimators,learning_rate,num_leaves,min_child_samples,subsample,colsample_bytree,reg_lambda,accuracy,balanced_accuracy,f1_macro,f1_weighted,accuracy_adjacent,mae_ordinal,qwk
+lightgbm_ext,extendido,400,0.05,63,20,0.8,0.8,1.0,0.7297414259439576,0.7294381549725375,0.7288117290128767,0.7290748197683603,0.9783620036784594,0.2955750297522449,0.8593328822032051

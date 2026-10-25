@@ -1,0 +1,2 @@
+modelo,escenario,variante,subsample,reg_lambda,reg_alpha,num_leaves,n_estimators,min_child_samples,learning_rate,colsample_bytree,accuracy,balanced_accuracy,f1_macro,f1_weighted,accuracy_adjacent,mae_ordinal,qwk
+lightgbm_ext_tuned,extendido_tuning,target_encoding,0.9,5.0,0.0,127,500,10,0.08,0.6,0.7283349561830574,0.7280460218982963,0.7277817425887263,0.728037782517497,0.9795520934761441,0.2955750297522449,0.8602278894416602

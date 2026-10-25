@@ -24,6 +24,9 @@ Thumbs.db
 # Dataset original
 data/raw/
 
+# Dataset extendido generado (reproducible con src/etl_features_ext.py)
+data/processed/airprice_features_ext.csv
+
 # Modelos pesados
 models/*.pkl
 models/*.joblib

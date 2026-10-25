@@ -1,0 +1,2 @@
+modelo,escenario,alpha,accuracy,balanced_accuracy,f1_macro,f1_weighted,accuracy_adjacent,mae_ordinal,qwk
+ordinal_logistic_ext,extendido,0.1,0.6738072054527751,0.6735814219507457,0.6767799450183634,0.6770495729824779,0.9772801038623824,0.35183382018825055,0.8319650626627215

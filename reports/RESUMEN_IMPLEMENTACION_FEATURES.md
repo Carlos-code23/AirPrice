@@ -103,15 +103,23 @@ notebooks/
 | XGBoost | 0.6711 | 0.6707 | 0.6685 | 0.6688 |
 | Ordinal Logístico | 0.6254 | 0.6252 | 0.6279 | 0.6282 |
 
-Los resultados geo, extendidos y de tuning se generan al ejecutar los notebooks. La tabla final queda en `reports/comparacion_escenarios.csv` y `reports/comparacion_escenarios.md`.
+Los resultados geo, extendidos y de tuning ya fueron generados. La tabla final está en `reports/comparacion_escenarios.csv`, `reports/comparacion_escenarios.md` y el análisis detallado en `reports/ANALISIS_RESULTADOS.md`.
 
-## 7. Qué esperar
+## 7. Resultados obtenidos
 
-- **Geo vs base:** delta pequeño (probablemente < 0.01). La ablación `reports/features_ablation_geo.csv` lo cuantifica.
-- **Extendido vs base:** la mayor ganancia debería venir de `amenities`, review scores, disponibilidad y densidad. Un salto realista es +0.02 a +0.06 de accuracy exacta; llegar a 0.90 es improbable.
-- **Tuning:** +0.00 a +0.01 sobre el extendido. Si el target encoding no mejora, se conserva One-Hot por simplicidad e interpretabilidad.
-- **Ensamble:** soft-voting de RF + XGBoost + LightGBM con pesos elegidos en validación. La ganancia esperada es pequeña; si no supera al mejor individual, se descarta.
-- **Accuracy adyacente:** probablemente > 0.95. Es la métrica que demuestra que el modelo ordinal es útil aunque la accuracy exacta no sea 0.90.
+| Escenario | Mejor modelo | Accuracy | F1-Macro | Accuracy adyacente | QWK |
+|---|---|---:|---:|---:|---:|
+| Base | LightGBM | 0.6883 | 0.6865 | 0.9707 | 0.8306 |
+| Geo | LightGBM | 0.6906 | 0.6892 | 0.9705 | 0.8300 |
+| Extendido | LightGBM | **0.7297** | **0.7288** | 0.9784 | 0.8593 |
+| Extendido + tuning | LightGBM (target encoding) | 0.7283 | 0.7278 | **0.9796** | **0.8602** |
+| Extendido + ensamble | RF/XGB/LGBM | **0.7303** | **0.7295** | 0.9788 | 0.8599 |
+
+- **Geo vs base:** +0.23 a +1.41 pp según el modelo; la ablación de LightGBM da Δ F1 = −0.0009. No es una mejora robusta.
+- **Extendido vs base:** +3.03 a +5.53 pp de accuracy. Es la mejora real.
+- **Tuning vs extendido:** −0.0014 de accuracy; no generalizó.
+- **Ensamble vs LightGBM extendido:** +0.0005 de accuracy; empate técnico.
+- **0.90 exacto:** no alcanzado (máximo 0.7303). La accuracy adyacente sí supera 0.90 (máximo 0.9796).
 
 ## 8. Commits sugeridos
 

@@ -1,0 +1,7 @@
+{
+  "mejor_modelo": "lightgbm_ext",
+  "accuracy": 0.7297414259439576,
+  "f1_macro": 0.7288117290128767,
+  "accuracy_adjacent": 0.9783620036784594,
+  "qwk": 0.8593328822032051
+}
