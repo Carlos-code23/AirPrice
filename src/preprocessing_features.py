@@ -17,6 +17,7 @@ from pathlib import Path
 
 import numpy as np
 import pandas as pd
+from pandas.api.types import is_object_dtype, is_string_dtype
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.compose import ColumnTransformer
 from sklearn.impute import SimpleImputer
@@ -148,7 +149,10 @@ def preparar_dataset_features(
     }
     if descartar_baseline:
         a_eliminar.update(c for c in COLUMNAS_DESCARTADAS if c in df.columns)
-    return df.drop(columns=sorted(a_eliminar))
+    df = df.drop(columns=sorted(a_eliminar))
+    # Columnas 100 % vacías en este scrape (p. ej. host_since o
+    # host_total_listings_count) no aportan y harían fallar/avisar al imputador.
+    return df.dropna(axis=1, how="all")
 
 
 def columnas_geo(X: pd.DataFrame) -> list[str]:
@@ -169,7 +173,10 @@ def columnas_categoricas_features(X: pd.DataFrame) -> list[str]:
         if columna in categoricas:
             continue
         dtype = X[columna].dtype
-        if dtype == object or isinstance(dtype, pd.CategoricalDtype):
+        # pandas 3 usa dtype ``str`` para texto, no ``object``.
+        if is_object_dtype(dtype) or is_string_dtype(dtype):
+            categoricas.append(columna)
+        elif isinstance(dtype, pd.CategoricalDtype):
             categoricas.append(columna)
     # ``dict.fromkeys`` conserva el orden y elimina duplicados.
     return list(dict.fromkeys(categoricas))
