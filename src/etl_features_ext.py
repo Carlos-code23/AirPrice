@@ -462,14 +462,11 @@ def _agregar_features_extra(df: pd.DataFrame) -> pd.DataFrame:
 def _auditar(
     df_base: pd.DataFrame,
     df_ext: pd.DataFrame,
+    tasa_emparejamiento: float,
     ruta_audit: Path,
     ruta_metadata: Path,
 ) -> None:
-    tasa = (
-        float(df_ext["host_listings_count"].notna().mean())
-        if "host_listings_count" in df_ext.columns
-        else float("nan")
-    )
+    tasa = float(tasa_emparejamiento)
     fila = pd.DataFrame(
         [
             {
@@ -550,6 +547,8 @@ def construir_dataset_ext(
             "El merge alteró el orden de id; el split dejaría de ser comparable."
         )
 
+    tasa_emparejamiento = float(df["id"].isin(original["id"]).mean())
+
     df = _agregar_features_extra(df)
     df = _agregar_geo(df)
     df = _agregar_densidad(df)
@@ -559,7 +558,7 @@ def construir_dataset_ext(
     ruta_salida.parent.mkdir(parents=True, exist_ok=True)
     df.to_csv(ruta_salida, index=False, encoding="utf-8")
 
-    _auditar(base, df, Path(ruta_audit), Path(ruta_metadata))
+    _auditar(base, df, tasa_emparejamiento, Path(ruta_audit), Path(ruta_metadata))
     return df
 
 
